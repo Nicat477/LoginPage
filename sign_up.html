@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/sign_up.css" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <div class="general">
+      <h1>Sign Up</h1>
+      <p class="dash">Sign up to continue</p>
+      <form id="signupForm">
+        <div class="part">
+          <label for="email">Email address</label>
+          <input type="email" id="email" placeholder="Enter your email" />
+          <div class="error" id="emailError"></div>
+        </div>
+        <div class="part">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter your password" />
+          <div class="error" id="passwordError"></div>
+        </div>
+        <div class="part">
+          <label for="con">Confirm Password</label>
+          <input type="password" id="con" placeholder="Enter your password" name="confirmPassword"/>
+          <div class="error" id="confirmPasswordError"></div>
+        </div>
+        <div class="check">
+          <div class="checkbox">
+            <input type="checkbox" />
+            <label>Remember for 30 days</label>
+          </div>
+        </div>
+        <button type="submit" id="submit">Sign Up</button>
+      </form>
+    </div>
+    <script src="./assets/js/firebase-config.js" defer type="module"></script>
+    
+  </body>
+</html>

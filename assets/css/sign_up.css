@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.general{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    gap:20px;
+    width:40%;
+    padding: 15px 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+}
+.part{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.dash{
+    color:darkgrey
+}
+.check{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.checkbox{
+    display: flex;
+    gap:5px
+}
+input[type="email"],input[type="password"],input[type="text"]{
+    padding-left: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+a{
+    text-decoration: underline;
+    color:blue;
+    cursor: pointer;
+}
+button{
+    padding: 10px 0;
+    background-color: blue;
+    color:antiquewhite;
+    border-radius: 3px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+button:hover{
+    background-color:chartreuse;
+}
+.sign_up{
+    text-align: center;
+}
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
